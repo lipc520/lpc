@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite"><test verbose="2" preserve-order="true" name="/Users/lipengcheng/Downloads/lpc/restassured">
+    <classes>
+
+        <class name="com.lpc.common.Login">
+        </class>
+
+    <class name="com.demo.LoginTest">
+        <methods><include name="loginCases"/></methods>
+
+    </class>
+        <class name="com.demo.ConfigTest">
+            <methods><include name="ConfigTest"/></methods>
+        </class>
+
+</classes>
+</test>
+    <listeners>
+        <!--这是配置生成报告的监听-->
+        <listener class-name="com.nvr.report.ExtentTestNGIReporterListener"/>
+    </listeners>
+</suite>

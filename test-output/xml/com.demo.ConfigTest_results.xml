@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="/Users/lipengcheng/Downloads/lpc/restassured"
+           tests="3"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="0.726">
+  <properties />
+  
+  
+            <testcase name="configCases" time="0.228" classname="com.demo.ConfigTest" />
+                <testcase name="configCases" time="0.271" classname="com.demo.ConfigTest" />
+                <testcase name="configCases" time="0.227" classname="com.demo.ConfigTest" />
+      
+</testsuite>
